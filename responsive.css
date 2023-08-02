@@ -1,0 +1,114 @@
+@media only screen and (max-width:600px){
+  .logo{
+    width: 100px;
+  }
+
+  nav button{
+    padding: 5px 10px;
+  }
+  
+
+  nav .language-btn{
+    padding: 4px 8px;
+  }
+  .header-content{
+    position: unset;
+    transform: none;
+    padding-top: 150px;
+
+  }
+  .header-content h1{
+     font-size: 30px;
+
+     
+  }
+
+  .email-signup button{
+    font-size: 12px;
+    padding: 10px 15px;
+  }
+
+
+
+.text-col, .img-col{
+flex-basis: 100%;
+}
+
+.features{
+  padding: 100px 12%;
+}
+
+.features h2{
+font-size: 25px;
+}
+.features p{
+  font-size: 15px;
+}
+
+.row:nth-child(2), .row:nth-child(4){
+  flex-direction: column-reverse;
+}
+
+.features .row{
+  padding: 10px 0;
+}
+
+.future2-poster-container{
+  max-width: fit-content;
+    max-height: 28%;
+  
+}
+
+}
+
+
+
+
+
+
+
+@media (min-width: 601px){
+.feature {
+    padding: 4rem;
+}
+
+
+.future2-poster-container{
+  max-width: fit-content;
+    max-height: 28%;
+  
+}
+
+
+
+
+  .FAQ__title {
+    font-size: 20px;
+  }
+  .FAQ__heading {
+    font-size: 38px;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  .FAQ__list {
+    padding: 1rem 5rem;
+  }
+
+
+
+
+}
+
+
+
+
+@media (min-width: 1024px){
+
+
+
+  .FAQ__list {
+    padding: 1rem 25rem;
+  }
+ 
+  
+}
